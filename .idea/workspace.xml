@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +21,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YTcNwaPMvLLSJO0ASGOJluBWsS" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1583048264131" duration="1442000" />
       <workItem from="1583049734930" duration="2972000" />
       <workItem from="1583052733993" duration="2672000" />
-      <workItem from="1583079792721" duration="3300000" />
+      <workItem from="1583079792721" duration="3646000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -82,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583082981765</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 18">
+      <created>1583084643797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583084643797</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 18">
+      <created>1583084902957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583084902957</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,10 +127,10 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="552" y="148" key="#start/62.0.1618.1050@62.0.1618.1050" timestamp="1583079854798" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1583084643805">
+    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583084914881">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583084643805" />
+    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583084914881" />
     <state x="200" y="318" key="EditFileWatcherDialog" timestamp="1583052217583">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
