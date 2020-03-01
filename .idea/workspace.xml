@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="" />
+    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react-way-of-samurai" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1YTcNwaPMvLLSJO0ASGOJluBWsS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,10 +31,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\react-way-of-samurai\src\components\Dialogs" />
+      <recent name="E:\Work\react-way-of-samurai\src\components\Navbar\News" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,21 +70,80 @@
       <workItem from="1582969998747" duration="69000" />
       <workItem from="1582970073173" duration="960000" />
       <workItem from="1582971075093" duration="2955000" />
-      <workItem from="1583048264131" duration="505000" />
+      <workItem from="1583048264131" duration="1442000" />
+      <workItem from="1583049734930" duration="2972000" />
+      <workItem from="1583052733993" duration="2672000" />
+      <workItem from="1583079792721" duration="3300000" />
     </task>
+    <task id="LOCAL-00001" summary="lesson 18">
+      <created>1583082981765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583082981765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lesson 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 18" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="363" y="101" key="#Inspections" timestamp="1583049600139">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="363" y="101" key="#Inspections/62.0.1618.1050@62.0.1618.1050" timestamp="1583049600139" />
+    <state x="363" y="101" key="#Notifications" timestamp="1583052702397">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="363" y="101" key="#Notifications/62.0.1618.1050@62.0.1618.1050" timestamp="1583052702397" />
+    <state x="611" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583084737617">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="611" y="301" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1618.1050@62.0.1618.1050" timestamp="1583084737617" />
+    <state x="802" y="294" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1583051753618">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="802" y="294" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/62.0.1618.1050@62.0.1618.1050" timestamp="1583051753618" />
+    <state x="552" y="148" key="#start" timestamp="1583079854798">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="552" y="148" key="#start/62.0.1618.1050@62.0.1618.1050" timestamp="1583079854798" />
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1583084643805">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="415" y="0" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583084643805" />
+    <state x="200" y="318" key="EditFileWatcherDialog" timestamp="1583052217583">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="200" y="318" key="EditFileWatcherDialog/62.0.1618.1050@62.0.1618.1050" timestamp="1583052217583" />
     <state x="601" y="224" key="FileChooserDialogImpl" timestamp="1582970583009">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1582970583009" />
-    <state x="324" y="0" key="SettingsEditor" timestamp="1582970990110">
+    <state x="235" y="151" key="SettingsEditor" timestamp="1583081088421">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
-    <state x="324" y="0" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1582970990110" />
+    <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
+    <state x="363" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583081149279">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583081149279" />
+    <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583084650226">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583084650226" />
+    <state x="492" y="7" width="757" height="1035" key="find.popup" timestamp="1583081168165">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="492" y="7" width="757" height="1035" key="find.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1583081168165" />
+    <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1583052288658">
+      <screen x="62" y="0" width="1618" height="1050" />
+    </state>
+    <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1583052288658" />
   </component>
 </project>
