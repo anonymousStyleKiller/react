@@ -4,7 +4,6 @@
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,8 @@
       <workItem from="1583079792721" duration="7053000" />
       <workItem from="1583091357799" duration="1454000" />
       <workItem from="1583148440979" duration="2846000" />
-      <workItem from="1583155015982" duration="1678000" />
+      <workItem from="1583155015982" duration="1877000" />
+      <workItem from="1583163867187" duration="1407000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583151281889</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson 21 Верстаем страницу Диалогов">
+      <created>1583156839357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583156839357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +143,9 @@
     <MESSAGE value="lesson 18" />
     <MESSAGE value="lesson 19" />
     <MESSAGE value="lesson 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 20" />
+    <MESSAGE value="lesson 21" />
+    <MESSAGE value="lesson 21 Верстаем страницу Диалогов" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 21 Верстаем страницу Диалогов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="101" key="#Inspections" timestamp="1583091266375">
@@ -159,10 +168,11 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="552" y="148" key="#start/62.0.1618.1050@62.0.1618.1050" timestamp="1583079854798" />
-    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583151280350">
-      <screen x="62" y="0" width="1618" height="1050" />
+    <state x="417" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583156837856">
+      <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151280350" />
+    <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1583156837856" />
     <state x="200" y="318" key="EditFileWatcherDialog" timestamp="1583052217583">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
@@ -175,10 +185,11 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
-    <state x="363" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583151284719">
-      <screen x="62" y="0" width="1618" height="1050" />
+    <state x="365" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583156844259">
+      <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151284719" />
+    <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1583156844259" />
     <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583084650226">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
