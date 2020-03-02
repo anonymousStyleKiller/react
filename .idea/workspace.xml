@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
@@ -87,7 +80,8 @@
       <workItem from="1583049734930" duration="2972000" />
       <workItem from="1583052733993" duration="2672000" />
       <workItem from="1583079792721" duration="7053000" />
-      <workItem from="1583091357799" duration="1162000" />
+      <workItem from="1583091357799" duration="1454000" />
+      <workItem from="1583148440979" duration="2533000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -117,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583084988846</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson 19">
+      <created>1583092641789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583092641789</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 18" />
+    <MESSAGE value="lesson 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 19" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="101" key="#Inspections" timestamp="1583091266375">
@@ -148,26 +150,26 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="552" y="148" key="#start/62.0.1618.1050@62.0.1618.1050" timestamp="1583079854798" />
-    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583084988081">
+    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583092639735">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
-    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583084988081" />
+    <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583092639735" />
     <state x="200" y="318" key="EditFileWatcherDialog" timestamp="1583052217583">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="200" y="318" key="EditFileWatcherDialog/62.0.1618.1050@62.0.1618.1050" timestamp="1583052217583" />
-    <state x="601" y="224" key="FileChooserDialogImpl" timestamp="1582970583009">
+    <state x="601" y="224" key="FileChooserDialogImpl" timestamp="1583092819140">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
-    <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1582970583009" />
+    <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1583092819140" />
     <state x="235" y="151" key="SettingsEditor" timestamp="1583081088421">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
-    <state x="363" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583081149279">
+    <state x="363" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583092688419">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
-    <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583081149279" />
+    <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583092688419" />
     <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583084650226">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
