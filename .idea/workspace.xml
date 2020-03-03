@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogsItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +38,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\react-way-of-samurai\src\components\Dialogs\Message" />
+      <recent name="E:\Work\react-way-of-samurai\src\components\Dialogs\Dialog" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Profile\ProfileInfo" />
       <recent name="E:\Work\react-way-of-samurai\src\components" />
       <recent name="E:\Work\react-way-of-samurai\src\components\News" />
-      <recent name="E:\Work\react-way-of-samurai\src\components\Dialogs" />
-      <recent name="E:\Work\react-way-of-samurai\src\components\Navbar\News" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,7 +87,8 @@
       <workItem from="1583155015982" duration="1877000" />
       <workItem from="1583163867187" duration="1501000" />
       <workItem from="1583171578409" duration="25000" />
-      <workItem from="1583171858363" duration="5672000" />
+      <workItem from="1583171858363" duration="5997000" />
+      <workItem from="1583255967745" duration="5461000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -158,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583177009362</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lesson 24 UI - BLL, выносим данные в сторону">
+      <created>1583179929991</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583179929991</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +181,8 @@
     <MESSAGE value="lesson 21 Верстаем страницу Диалогов" />
     <MESSAGE value="lesson 22 Route exact" />
     <MESSAGE value="lesson 23 props для Диалогов" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 23 props для Диалогов" />
+    <MESSAGE value="lesson 24 UI - BLL, выносим данные в сторону" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 24 UI - BLL, выносим данные в сторону" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="101" key="#Inspections" timestamp="1583091266375">
@@ -195,11 +205,11 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="552" y="148" key="#start/62.0.1618.1050@62.0.1618.1050" timestamp="1583079854798" />
-    <state x="417" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583177008285">
+    <state x="417" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583179928371">
       <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151280350" />
-    <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1583177008285" />
+    <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1583179928371" />
     <state x="200" y="318" key="EditFileWatcherDialog" timestamp="1583052217583">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
@@ -213,11 +223,11 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
-    <state x="365" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583177013267">
+    <state x="365" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583179935448">
       <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151284719" />
-    <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1583177013267" />
+    <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1583179935448" />
     <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583084650226">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
