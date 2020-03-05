@@ -3,28 +3,17 @@ import s from './Dialogs.module.css';
 import Dialog from "./Dialog/DialogsItem";
 import Message from "./Message/Message";
 
-
+let newDialogMessage = React.createRef();
+const dialogMessage = () => {
+    let text = newDialogMessage.current.value;
+    alert(text);
+}
 const Dialogs = (props) => {
-    let dialogs = [
-        {id: "1", name: "Anton"},
-        {id: "2", name: "Dima"},
-        {id: "3", name: "Sasha"},
-        {id: "4", name: "Nadya"},
-        {id: "5", name: "Artem"},
-    ];
-    let message = [
-        {id: "1", message: "Hi"},
-        {id: "2", message: "How are you?"},
-        {id: "3", message: "Hello"},
-        {id: "4", message: "Yo"},
-        {id: "5", message: "Privet"},
-    ];
 
-
-    let dialogsElement = dialogs
+    let dialogsElement = props.state.dialogs
         .map((dialog) => <Dialog name={dialog.name} id={dialog.id}/>);
 
-    let messageElement = message
+    let messageElement = props.state.message
         .map((message) => <Message message={message.message} id={message.id}/>);
 
     return (
@@ -36,9 +25,16 @@ const Dialogs = (props) => {
             <div className={s.message}>
                 {messageElement}
             </div>
+            <textarea ref={newDialogMessage}></textarea>
+            <br/>
+            <button onClick={dialogMessage}>Отправить</button>
         </div>
     );
+    
 
 };
+
+    
+
 
 export default Dialogs;

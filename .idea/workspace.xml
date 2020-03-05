@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogsItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +16,23 @@
   <component name="FavoritesManager">
     <favorites_list name="react-way-of-samurai" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/anonymousStyleKiller/react.git" />
+      </set>
+    </option>
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -51,7 +66,30 @@
       <recent name="E:\Work\react-way-of-samurai\src\components\News" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Start" type="js.build_tools.npm" temporary="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="js.build_tools.npm" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="star" />
+      <node-interpreter value="C:/Program Files/nodejs/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -61,6 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start (2)" />
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.Start" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -89,6 +130,7 @@
       <workItem from="1583171578409" duration="25000" />
       <workItem from="1583171858363" duration="5997000" />
       <workItem from="1583255967745" duration="5461000" />
+      <workItem from="1583339647327" duration="3634000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -167,11 +209,36 @@
       <option name="project" value="LOCAL" />
       <updated>1583179929991</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="render)">
+      <created>1583338332444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583338332444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="28 - index.js">
+      <created>1583340457195</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583340457195</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 18" />
@@ -182,7 +249,9 @@
     <MESSAGE value="lesson 22 Route exact" />
     <MESSAGE value="lesson 23 props для Диалогов" />
     <MESSAGE value="lesson 24 UI - BLL, выносим данные в сторону" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 24 UI - BLL, выносим данные в сторону" />
+    <MESSAGE value="render)" />
+    <MESSAGE value="28 - index.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="28 - index.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="363" y="101" key="#Inspections" timestamp="1583091266375">
@@ -193,6 +262,10 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="363" y="101" key="#Notifications/62.0.1618.1050@62.0.1618.1050" timestamp="1583052702397" />
+    <state x="553" y="148" key="#Start" timestamp="1583339591353">
+      <screen x="65" y="0" width="1615" height="1050" />
+    </state>
+    <state x="553" y="148" key="#Start/65.0.1615.1050@65.0.1615.1050" timestamp="1583339591353" />
     <state x="611" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583084737617">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
@@ -205,11 +278,20 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="552" y="148" key="#start/62.0.1618.1050@62.0.1618.1050" timestamp="1583079854798" />
-    <state x="417" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583262338698">
+    <state x="553" y="148" key="#start_(1)" timestamp="1583339727300">
       <screen x="65" y="0" width="1615" height="1050" />
     </state>
+    <state x="553" y="148" key="#start_(1)/65.0.1615.1050@65.0.1615.1050" timestamp="1583339727300" />
+    <state x="521" y="128" key="#start_(2)" timestamp="1583344612438">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="521" y="128" key="#start_(2)/0.0.1680.1010@0.0.1680.1010" timestamp="1583344612438" />
+    <state x="366" y="0" width="911" height="770" key="CommitChangelistDialog2" timestamp="1583340466611">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="366" y="0" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1583340466611" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151280350" />
-    <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1583262338698" />
+    <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1583338331420" />
     <state x="200" y="318" key="EditFileWatcherDialog" timestamp="1583052217583">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
@@ -219,15 +301,31 @@
     </state>
     <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1583092819140" />
     <state x="603" y="224" key="FileChooserDialogImpl/65.0.1615.1050@65.0.1615.1050" timestamp="1583171601628" />
+    <state width="827" height="497" key="GridCell.Tab.0.bottom" timestamp="1583344666811">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="827" height="497" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1583344666811" />
+    <state width="827" height="497" key="GridCell.Tab.0.center" timestamp="1583344666811">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="827" height="497" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1583344666811" />
+    <state width="827" height="497" key="GridCell.Tab.0.left" timestamp="1583344666811">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="827" height="497" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1583344666811" />
+    <state width="827" height="497" key="GridCell.Tab.0.right" timestamp="1583344666811">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="827" height="497" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1583344666811" />
     <state x="235" y="151" key="SettingsEditor" timestamp="1583081088421">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
-    <state x="365" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583262378655">
+    <state x="365" y="189" key="Vcs.Push.Dialog.v2" timestamp="1583338381292">
       <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151284719" />
-    <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1583262378655" />
+    <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1583338381292" />
     <state x="649" y="423" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583084650226">
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
@@ -236,9 +334,10 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="492" y="7" width="757" height="1035" key="find.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1583081168165" />
-    <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup" timestamp="1583086233287">
-      <screen x="62" y="0" width="1618" height="1050" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1583340183155">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1583340183155" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1583086233287" />
   </component>
 </project>
