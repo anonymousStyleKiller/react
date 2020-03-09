@@ -8,15 +8,15 @@ const MyPosts = (props) => {
                                                         likesCount={post.likesCount}/>);
 
     let newPostElement = React.createRef();
-    let addPost = () => {
-        debugger;
-        props.addPost();
-    };
-
 
     let onPostChange = () => {
         let text = newPostElement.current.value;
-        props.updateNewPostText(text);
+        let action = {type: 'UPDATE-NEW-POST-TEXT', newText: text};
+        props.dispatch(action);
+    };
+
+    let addPost = () => {
+        props.dispatch({type: 'ADD-POST'});
     };
 
     return (
