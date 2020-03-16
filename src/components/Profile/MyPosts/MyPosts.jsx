@@ -1,10 +1,7 @@
 import React from 'react';
 import s from './MyPosts.module.css';
 import Post from './Post/Post';
-import {updateNewPostTextActionCreator,  addPostActionCreator} from "../../../redux/state";
-
-
-
+import {addPostActionCreator, updateNewPostTextActionCreator} from "../../../redux/profileReducer";
 
 
 const MyPosts = (props) => {
@@ -17,7 +14,7 @@ const MyPosts = (props) => {
         let text = newPostElement.current.value;
         let action = updateNewPostTextActionCreator(text);
         props.dispatch(action);
-    
+
     };
 
     let addPost = () => {
@@ -42,6 +39,6 @@ const MyPosts = (props) => {
         </div>
     )
 
-}
+};
 
 export default MyPosts;
