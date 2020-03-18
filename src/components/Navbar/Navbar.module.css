@@ -1,11 +1,16 @@
 .nav {
-    grid-area: n;
-    background-color: burlywood;
-    padding: 20px;
+    background-color: white;
+    padding: 10px;
+    width: 50px;
+}
+.item img.navBarImg{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 
 .item a {
-    color: white;
+    color: gray;
     text-decoration: none;
 }
 
