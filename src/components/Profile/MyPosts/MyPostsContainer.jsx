@@ -3,9 +3,6 @@ import MyPosts from "./MyPosts";
 import {connect} from "react-redux";
 import {updateNewPostTextActionCreator, addPostActionCreator} from "../../../redux/profileReducer";
 
-
-
-
 let mapStateToProps = (state) => {
     return {
         posts: state.profilePage.postsData,
@@ -20,11 +17,11 @@ let mapDispatchToProps = (dispatch) => {
             dispatch(action);
         },
         addPost: () => {
-            dispatch.addPostActionCreator()
+            dispatch(addPostActionCreator());
         }
     }
 };
 
-let MyPostsContainer = connect(mapDispatchToProps, mapStateToProps)(MyPosts);
+let MyPostsContainer = connect(mapStateToProps, mapDispatchToProps)(MyPosts);
 
 export default MyPostsContainer;

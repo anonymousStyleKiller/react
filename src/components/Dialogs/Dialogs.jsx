@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './Dialogs.module.css';
-import Dialog from "./Dialog/DialogsItem";
+import DialogItem from "./Dialog/DialogsItem";
 import Message from "./Message/Message";
 
 
@@ -9,16 +9,16 @@ const Dialogs = (props) => {
     let state = props.dialogsPage;
 
     let dialogsElement = state.dialogs
-        .map((dialog) => <Dialog name={dialog.name} id={dialog.id}/>);
+        .map((dialog) => <DialogItem name={dialog.name} id={dialog.id}/>);
     let messageElement = state.message
         .map((message) => <Message message={message.message} id={message.id}/>);
-    let newMessageBody = state.newMessageBody;
+    let newMessageBody = state.newMessageText;
     let onSendMessageClick = () => {
-        props.sendMessageCreator();
+        props.sendMessage();
     };
     let onNewMessageChange = (event) => {
         let body = event.target.value;
-        props.updateNewMessageBodyCreator(body);
+        props.updateNewMessageBody(body);
     };
     return (
         <div className={css.dialogs}>
