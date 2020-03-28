@@ -3,10 +3,10 @@ const updateNewPostText = 'UPDATE-NEW-POST-TEXT';
 
 
 let initialState = {
-    newPostText: "it-toxa.com",
+    newPostText: "",
     postsData: [
-        {id: "1", name: "Anton", lastName: "Kharchenko", likesCount: "0"},
-        {id: "2", name: "Alex", lastName: "Glinka", likesCount: "23"}
+        {id: 1, name: "Anton ", lastName: "Kharchenko ", likesCount: "0"},
+        {id: 2, name: "Alex ", lastName: "Glinka ", likesCount: "23"}
     ]
 };
 
@@ -14,10 +14,10 @@ const profileReducer = (state = initialState, action) => {
     switch (action.type) {
         case addPost: {
             let newPost = {
-                id: "3",
-                name: "John",
+                id: 3,
+                name: "Name",
                 lastName: state.newPostText,
-                likesCount: 15
+                likesCount: 10
             };
             let copyState = {...state};
             copyState.postsData = [...state.postsData];

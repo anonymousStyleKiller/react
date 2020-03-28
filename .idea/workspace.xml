@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="45 - connect">
+    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogsItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/sidebarReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/sidebarReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +160,12 @@
       <workItem from="1585085488113" duration="999000" />
       <workItem from="1585086535699" duration="1245000" />
       <workItem from="1585113483419" duration="3015000" />
-      <workItem from="1585116694815" duration="3809000" />
+      <workItem from="1585116694815" duration="5120000" />
+      <workItem from="1585163066406" duration="22000" />
+      <workItem from="1585210711070" duration="2896000" />
+      <workItem from="1585298058378" duration="303000" />
+      <workItem from="1585309846857" duration="1856000" />
+      <workItem from="1585383317529" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -309,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584998208472</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="47 - Делаем копию состояния в ProfileReducer">
+      <created>1585125788660</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1585125788661</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +352,8 @@
     <MESSAGE value="43 - container component" />
     <MESSAGE value="44 - context api" />
     <MESSAGE value="45 - connect" />
-    <option name="LAST_COMMIT_MESSAGE" value="45 - connect" />
+    <MESSAGE value="47 - Делаем копию состояния в ProfileReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="47 - Делаем копию состояния в ProfileReducer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="365" y="101" key="#Inspections" timestamp="1584381875807">
@@ -402,10 +408,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
-    <state x="359" y="193" width="911" height="770" key="CommitChangelistDialog2" timestamp="1585086892879">
+    <state x="359" y="193" width="911" height="770" key="CommitChangelistDialog2" timestamp="1585125786451">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="359" y="193" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1585086892879" />
+    <state x="359" y="193" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1585125786451" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151280350" />
     <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554410124" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1583765961570">
@@ -416,28 +422,12 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="200" y="318" key="EditFileWatcherDialog/62.0.1618.1050@62.0.1618.1050" timestamp="1583052217583" />
-    <state x="560" y="215" key="FileChooserDialogImpl" timestamp="1585086894099">
+    <state x="560" y="215" key="FileChooserDialogImpl" timestamp="1585163086029">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="560" y="215" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1585086894099" />
+    <state x="560" y="215" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1585163086029" />
     <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1583092819140" />
     <state x="603" y="224" key="FileChooserDialogImpl/65.0.1615.1050@65.0.1615.1050" timestamp="1584554441574" />
-    <state width="-1" height="834" key="GridCell.Tab.0.bottom" timestamp="1585116290294">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="-1" height="834" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1585116290294" />
-    <state width="-1" height="834" key="GridCell.Tab.0.center" timestamp="1585116290293">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="-1" height="834" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1585116290293" />
-    <state width="-1" height="834" key="GridCell.Tab.0.left" timestamp="1585116290293">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="-1" height="834" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1585116290293" />
-    <state width="-1" height="834" key="GridCell.Tab.0.right" timestamp="1585116290293">
-      <screen x="0" y="0" width="1680" height="1010" />
-    </state>
-    <state width="-1" height="834" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1585116290293" />
     <state x="643" y="46" key="RollbackChangesDialog" timestamp="1584298173943">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -452,10 +442,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.1680.1010@0.0.1680.1010" timestamp="1585087066861" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1584998210450">
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1585125791327">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1584998210450" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1585125791327" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1583151284719" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
     <state x="609" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584298229709">
@@ -475,11 +465,11 @@
       <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1585087074984">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup" timestamp="1585212708526">
+      <screen x="65" y="0" width="1615" height="1050" />
     </state>
     <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1585087074984" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1583086233287" />
-    <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584525997296" />
+    <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
   </component>
 </project>
