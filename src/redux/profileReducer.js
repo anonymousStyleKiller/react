@@ -1,7 +1,6 @@
 const addPost = "ADD-POST";
 const updateNewPostText = 'UPDATE-NEW-POST-TEXT';
 
-
 let initialState = {
     newPostText: "",
     postsData: [
@@ -19,21 +18,20 @@ const profileReducer = (state = initialState, action) => {
                 lastName: state.newPostText,
                 likesCount: 10
             };
-            let copyState = {...state};
-            copyState.postsData = [...state.postsData];
-            copyState.postsData.push(newPost);
-            copyState.newPostText = '';
-            return copyState;
+            return {
+                ...state,
+                postsData: [...state.postsData, newPost],
+                newPostText: ''
+            };
         }
         case updateNewPostText:
-            let copyState = {...state};
-            copyState.newPostText = action.newText;
-            return copyState;
+            return {
+                ...state,
+                newPostText: action.newText
+            };
         default:
             return state;
     }
-
-
 };
 
 export const addPostActionCreator = () => ({type: addPost});
