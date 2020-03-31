@@ -17,11 +17,18 @@ const Navbar = () => {
                 <NavLink to="/dialogs" activeClassName={css.activeLink}>
                     <img className={css.navBarImg}  title="Message"
                          src="https://img.icons8.com/nolan/64/messaging-.png"
-                         alt="messageImg"/></NavLink>
+                         alt="messageImg"/>
+                </NavLink>
+            </div>
+            <div className={css.item}>
+                <NavLink to="/users" activeClassName={css.activeLink}>
+                    <img className={css.navBarImg}  title="Users"
+                         src="https://img.icons8.com/nolan/64/change-user-male.png"
+                         alt="usersImg"/>
+                </NavLink>
             </div>
             <div className={css.item}>
                 <NavLink to="/news" activeClassName={css.activeLink}>
-
                     <img className={css.navBarImg} title="News"
                          src="https://img.icons8.com/nolan/64/news.png" alt="newsImg"/>
                 </NavLink>
