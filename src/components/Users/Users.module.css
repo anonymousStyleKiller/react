@@ -2,14 +2,16 @@
     width: 100px;
     height: 100px;
 }
+
+.pages{
+    margin:20px;
+}
 .pages span{
-    margin: 10px;
     border: 1px solid #fff;
     padding: 10px;
     cursor: pointer;
 }
 .selectedPage{
     font-weight: bold;
-    border: 1px solid #000;
     color: white;
 }
