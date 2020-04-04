@@ -4,17 +4,34 @@ import Preloader from "../../Preloader/Preloader";
 
 
 const ProfileInfo = (props) => {
-    if (!props.profile){
+    if (!props.profile) {
         return <Preloader/>
-    }else {
+    } else {
         debugger;
         return (
             <div>
                 <div>
-                    <img alt="" src='https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350'/>
+                    <img alt=""
+                         src='https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350'/>
                 </div>
                 <div className={css.descriptionBlock}>
-                    <img src={props.profile.photos.large} alt=""/>
+                    <div className={css.profileInfo}>
+                            <div className={css.contacts}>
+                                <ul>
+                                    <li> {props.profile.contacts.facebook}</li>
+                                    <li>{props.profile.contacts.twitter}</li>
+                                    <li>{props.profile.contacts.instagram}</li>
+                                </ul>
+                            </div>
+                        <div>
+                            <img className={css.photoProf} src={props.profile.photos.large} alt=""/>
+                            <div className={css.fullName}>
+                                {props.profile.fullName}
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         )

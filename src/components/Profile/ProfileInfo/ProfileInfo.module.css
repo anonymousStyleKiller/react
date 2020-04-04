@@ -1,3 +1,21 @@
 .descriptionBlock{
     padding: 10px;
 }
+
+.profileInfo{
+    display: flex;
+}
+.contacts{
+    margin-right: 20px;
+}
+.contacts li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.photoProf{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
