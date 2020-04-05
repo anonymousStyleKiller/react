@@ -35,5 +35,11 @@
     text-decoration: none;
 }
 
+.headerLogin{
+    display:block;
+    text-align: center;
+    opacity: 0.5;
+}
+
 
 
