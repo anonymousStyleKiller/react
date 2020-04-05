@@ -9,19 +9,20 @@ import Music from "./components/Music/Music";
 import Settings from "./components/Settings/Settings";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
+import HeaderContainer from "./components/Header/HeaderContainer";
 
 
 const App = () => {
     return (
         <BrowserRouter>
             <div className='app-wrapper'>
-                <Header/>
+                <HeaderContainer/>
                 <div className="content">
                     <Navbar/>
                     <div className='app-wrapper-content'>
                         <Route path="/dialogs"
                                render={() => <DialogsContainer/>}/>
-                        <Route path="/profile/:userId"
+                        <Route path="/profile/:userId?"
                                render={() => <ProfileContainer/>}/>
                         <Route path="/users"
                                render={() => <UsersContainer/>}/>
