@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/usersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="react-way-of-samurai" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +46,24 @@
       </set>
     </option>
   </component>
+  <component name="GotoFileConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="Angular2Html" />
+      <filtered-out-file-type name="Angular2Svg" />
+      <filtered-out-file-type name="ASP" />
+      <filtered-out-file-type name="AspectJ" />
+      <filtered-out-file-type name="C#" />
+      <filtered-out-file-type name="C++" />
+      <filtered-out-file-type name="CoffeeScript" />
+      <filtered-out-file-type name="Cucumber" />
+      <filtered-out-file-type name="Dockerfile" />
+      <filtered-out-file-type name="Dictionary" />
+      <filtered-out-file-type name="DTD" />
+      <filtered-out-file-type name="Erlang" />
+      <filtered-out-file-type name="PHP" />
+      <filtered-out-file-type name="Perl" />
+    </file-type-list>
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -60,7 +81,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -74,6 +94,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.splitter.proportion" value="0.24390244" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +211,14 @@
       <workItem from="1586015953043" duration="2286000" />
       <workItem from="1586069376566" duration="9386000" />
       <workItem from="1586103675958" duration="78000" />
-      <workItem from="1586148524135" duration="5690000" />
+      <workItem from="1586148524135" duration="9622000" />
+      <workItem from="1586182993237" duration="39000" />
+      <workItem from="1586241575891" duration="6115000" />
+      <workItem from="1586276104819" duration="517000" />
+      <workItem from="1586337032240" duration="4880000" />
+      <workItem from="1586368246916" duration="1048000" />
+      <workItem from="1586369753465" duration="3954000" />
+      <workItem from="1586414590602" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 18">
       <created>1583082981765</created>
@@ -444,28 +472,33 @@
       <option name="project" value="LOCAL" />
       <updated>1586159796107</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="apiMe.follow and unFollow">
+      <created>1586160327266</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586160327266</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="lesson 24 UI - BLL, выносим данные в сторону" />
     <MESSAGE value="render)" />
     <MESSAGE value="28 - index.js" />
     <MESSAGE value="29 - state" />
@@ -490,12 +523,14 @@
     <MESSAGE value="61 - React JS - cookie, login в теории, auth/me" />
     <MESSAGE value="62 - follow-unfollow api" />
     <MESSAGE value="63 -  axios.create, api.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="63 -  axios.create, api.js" />
+    <MESSAGE value="apiMe.follow and unFollow" />
+    <option name="LAST_COMMIT_MESSAGE" value="apiMe.follow and unFollow" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="365" y="101" key="#Inspections" timestamp="1584381875807">
-      <screen x="65" y="0" width="1615" height="1050" />
+    <state x="312" y="97" key="#Inspections" timestamp="1586372291256">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state x="312" y="97" key="#Inspections/0.0.1680.1010@0.0.1680.1010" timestamp="1586372291256" />
     <state x="363" y="101" key="#Inspections/62.0.1618.1050@62.0.1618.1050" timestamp="1583091266375" />
     <state x="365" y="101" key="#Inspections/65.0.1615.1050@65.0.1615.1050" timestamp="1584381875807" />
     <state x="363" y="101" key="#Notifications" timestamp="1583052702397">
@@ -561,32 +596,40 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="200" y="318" key="EditFileWatcherDialog/62.0.1618.1050@62.0.1618.1050" timestamp="1583052217583" />
-    <state x="539" y="224" key="FileChooserDialogImpl" timestamp="1586103752078">
-      <screen x="0" y="0" width="1618" height="1050" />
+    <state x="560" y="215" key="FileChooserDialogImpl" timestamp="1586371674599">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="539" y="224" key="FileChooserDialogImpl/0.0.1618.1050@0.0.1618.1050" timestamp="1586103752078" />
-    <state x="560" y="215" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1585664054385" />
+    <state x="560" y="215" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1586371674599" />
     <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1585514097916" />
     <state x="603" y="224" key="FileChooserDialogImpl/65.0.1615.1050@65.0.1615.1050" timestamp="1584554441574" />
     <state x="643" y="46" key="RollbackChangesDialog" timestamp="1584298173943">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="643" y="46" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584298173943" />
-    <state x="322" y="66" width="1477" height="1050" key="SettingsEditor" timestamp="1585422542483">
+    <state x="84" y="0" width="1477" height="1050" key="SettingsEditor" timestamp="1586371789619">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="322" y="66" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1585422542483" />
+    <state x="84" y="0" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1586371789619" />
     <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
     <state x="203" y="0" width="1477" height="1050" key="SettingsEditor/65.0.1615.1050@65.0.1615.1050" timestamp="1584525744837" />
+    <state width="297" height="242" key="ShowFilterAction_Filter_Popup" timestamp="1586342214636">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="297" height="242" key="ShowFilterAction_Filter_Popup/0.0.1680.1010@0.0.1680.1010" timestamp="1586342214636" />
     <state width="623" height="498" key="SwitcherDM" timestamp="1585087066861">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.0.1680.1010@0.0.1680.1010" timestamp="1585087066861" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1586159807099">
+    <state x="644" y="387" key="UiDebugger" timestamp="1586371745529">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="644" y="387" key="UiDebugger/0.0.1680.1010@0.0.1680.1010" timestamp="1586371745529" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1586160330049">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="300" y="189" key="Vcs.Push.Dialog.v2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080874189" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1586159807099" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1586160330049" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912705082" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
     <state x="609" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584298229709">
@@ -619,11 +662,11 @@
     </state>
     <state x="443" y="239" key="run.anything.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585906512424" />
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1586159333151">
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1586371800416">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="388" y="15" width="841" height="1035" key="search.everywhere.popup/0.0.1618.1050@0.0.1618.1050" timestamp="1586078499971" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1586159333151" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1586371800416" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585909764848" />
     <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
   </component>
