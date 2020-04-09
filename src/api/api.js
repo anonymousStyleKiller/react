@@ -30,6 +30,20 @@ export const apiMe = {
                 return response.data;
             })
         )
+    },
+    auth(authResponse){
+        return(
+            instance.get(+authResponse).then(responce=>{
+                return responce.data
+            })
+        )
+    },
+    profile(userId){
+        return(
+            instance.get(`profile/${userId}`).then(response=>{
+                return response.data;
+            })
+        )
     }
 };
 
