@@ -33,7 +33,7 @@ export const apiMe = {
     },
     auth(authResponse){
         return(
-            instance.get(+authResponse).then(responce=>{
+            instance.get(authResponse).then(responce=>{
                 return responce.data
             })
         )

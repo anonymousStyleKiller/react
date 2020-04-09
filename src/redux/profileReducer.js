@@ -1,3 +1,5 @@
+import {apiMe} from "../api/api";
+
 const addPost = "ADD-POST";
 const updateNewPostText = 'UPDATE-NEW-POST-TEXT';
 const SET_USER_PROFILE = 'SET-USER-PROFILE';
@@ -44,4 +46,13 @@ const profileReducer = (state = initialState, action) => {
 export const addPostActionCreator = () => ({type: addPost});
 export const updateNewPostTextActionCreator = (text) => ({type: updateNewPostText, newText: text});
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});
+
+export const SetUserProfileThunk = (userId)=>{
+    return (dispatch) =>{
+        apiMe.profile(userId).then(data => {
+            dispatch(setUserProfile(data));
+        });
+    }
+}
+
 export default profileReducer;
