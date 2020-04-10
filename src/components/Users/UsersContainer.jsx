@@ -4,6 +4,7 @@ import {follow, getUsers, setCurrentPage, toggleFollowingProgress, unFollow} fro
 import Users from "./Users";
 import Preloader from "../Preloader/Preloader";
 import {withAuthRedirect} from "../hoc/withAuthRedirect";
+import {compose} from "redux";
 
 
 class UsersAPIComponent extends React.Component {
@@ -45,7 +46,8 @@ let mapStateToProps = (state) => {
     }
 };
 
-
-export default withAuthRedirect(connect(mapStateToProps, {follow, unFollow, setCurrentPage,
-    toggleFollowingProgress, getUsers})
-(UsersAPIComponent));
+export default compose(withAuthRedirect,
+    connect(mapStateToProps, {
+        follow, unFollow, setCurrentPage,
+        toggleFollowingProgress, getUsers
+    })(UsersAPIComponent))
