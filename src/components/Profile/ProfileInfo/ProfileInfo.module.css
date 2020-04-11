@@ -19,3 +19,14 @@
     height: 100px;
 }
 
+.status{
+    display: flex;
+    color: white;
+    cursor: pointer;
+}
+
+.meStatus{
+    opacity: 0.5;
+    font-style: italic;
+}
+

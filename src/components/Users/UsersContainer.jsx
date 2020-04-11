@@ -50,4 +50,4 @@ export default compose(withAuthRedirect,
     connect(mapStateToProps, {
         follow, unFollow, setCurrentPage,
         toggleFollowingProgress, getUsers
-    })(UsersAPIComponent))
+    }))(UsersAPIComponent)
