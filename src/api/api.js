@@ -16,35 +16,55 @@ export const apiMe = {
             return response.data;
         })
     },
+    follow(id) {
+        return (
+            instance.post(`follow/${id}`).then(response => {
+                return response.data;
+            })
+        )
+    },
+    unFollow(id) {
+        return (
+            instance.delete(`follow/${id}`).then(response => {
+                return response.data;
+            })
+        )
+    },
+    profile(userId) {
+        console.warn("Absolute method. Please profileAPI object");
+        return (profileAPI.profile(userId));
+    },
 
-    follow(id){
-        return(
-            instance.post(`follow/${id}`).then(response=>{
+};
+
+export const profileAPI = {
+    profile(userId) {
+        return (
+            instance.get(`profile/${userId}`).then(response => {
                 return response.data;
             })
         )
     },
-    unFollow(id){
-        return(
-            instance.delete(`follow/${id}`).then(response=>{
-                return response.data;
-            })
-        )
+    getStatus(userId) {
+        return instance.get(`profile/status/${userId}`).then(response => {
+            return response.data;
+        });
     },
-    auth(authResponse){
-        return(
-            instance.get(authResponse).then(responce=>{
+    updateStatus(status) {
+        return instance.put(`profile/status/${status}`).then(response => {
+            return response.data;
+        });
+    }
+};
+
+export const authMe = {
+    auth(authResponse) {
+        return (
+            instance.get(authResponse).then(responce => {
                 return responce.data
             })
         )
-    },
-    profile(userId){
-        return(
-            instance.get(`profile/${userId}`).then(response=>{
-                return response.data;
-            })
-        )
     }
-};
+}
 
 
