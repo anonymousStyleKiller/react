@@ -1,5 +1,5 @@
-import css from "../Users/Users.module.css";
-import gif from "../../assets/images/giphy.gif";
+import css from "../../Users/Users.module.css";
+import gif from "../../../assets/images/giphy.gif";
 import React from "react";
 
 
