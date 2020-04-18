@@ -58,12 +58,20 @@ export const profileAPI = {
 };
 
 export const authMe = {
-    auth(authResponse) {
-        return (
-            instance.get(authResponse).then(responce => {
+    auth() {
+        return instance.get(`auth/me`).then(responce => {
                 return responce.data
-            })
-        )
+            });
+        },
+    login(email, password, rememberMe){
+        return instance.post(`auth/login`, {email, password, rememberMe}).then(responce => {
+            return responce.data
+        });
+    },
+    logout(){
+        return instance.delete(`auth/login`).then(responce => {
+            return responce.data
+        });
     }
 }
 

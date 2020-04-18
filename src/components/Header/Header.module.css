@@ -7,7 +7,7 @@
 
 .header img {
     width: 70px;
-    height: 70px;
+    height: 100%;
 }
 
 .headerText{
@@ -39,6 +39,24 @@
     display:block;
     text-align: center;
     opacity: 0.5;
+}
+
+.login{
+    display: flex;
+}
+
+.buttonLogout{
+    border: none;
+    display: flex;
+    text-align-last: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    outline: none;
 }
 
 
