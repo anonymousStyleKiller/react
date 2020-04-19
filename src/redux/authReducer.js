@@ -1,4 +1,5 @@
 import {authMe} from "../api/api";
+import {stopSubmit} from "redux-form";
 
 const SET_USER_DATA = 'SET_USER_DATA';
 
@@ -22,7 +23,10 @@ const authReducer = (state = initialState, action) => {
     }
 };
 
-export const setAuthUserData = (id, email, login, isAuth) => ({type: SET_USER_DATA, payload: {id, email, login, isAuth}});
+export const setAuthUserData = (id, email, login, isAuth) => ({
+    type: SET_USER_DATA,
+    payload: {id, email, login, isAuth}
+});
 
 export const getAuthUserData = () => {
     return (dispatch) => {
@@ -36,14 +40,18 @@ export const getAuthUserData = () => {
         );
     }
 }
+
 export const login = (email, password, rememberMe) => (dispatch) => {
-        authMe.login(email, password, rememberMe).then(
-            data => {
-                if (data.resultCode === 0) {
-                    dispatch(getAuthUserData())
-                }
+    authMe.login(email, password, rememberMe).then(
+        data => {
+            if (data.resultCode === 0) {
+                dispatch(getAuthUserData())
+            } else {
+                let messages = data.messages.length ? data.messages[0] : "Common error";
+                dispatch(stopSubmit('login', {_error: messages}));
             }
-        );
+        }
+    );
 }
 
 export const logout = () => (dispatch) => {

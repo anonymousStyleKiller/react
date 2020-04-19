@@ -5,22 +5,27 @@ import {required} from "../../utils/validators/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/authReducer";
 import {Redirect} from "react-router-dom";
-import mapDispatchToProps from "react-redux/lib/connect/mapDispatchToProps";
+import style from  '../common/FormsControls/FormsControls.module.css'
 
 const LoginForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
-                <Field validate={[required]} placeholder={"Email"} component={Input} name={"email"} />
+                <Field validate={[required]} placeholder={"Email"} component={Input} name={"email"}/>
             </div>
             <div>
                 <Field validate={[required]} placeholder={"Password"} component={Input} name={"password"}
-                        type="password"
+                       type="password"
                 />
             </div>
             <div>
-                <Field validate={[required]} component={Input}  name={"checkbox"} type={"checkbox"}/>
+                <Field validate={[required]} component={Input} name={"checkbox"} type={"checkbox"}/>
             </div>
+
+            {props.error &&<div className={style.loginError}>
+                {props.error}
+            </div>}
+
             <div>
                 <button>Login</button>
             </div>
@@ -39,8 +44,8 @@ const Login = (props) => {
     }
 
 
-    if(props.isAuth){
-        return <Redirect to={"/profile"} />
+    if (props.isAuth) {
+        return <Redirect to={"/profile"}/>
     }
     return (
         <div>
@@ -51,8 +56,8 @@ const Login = (props) => {
 }
 
 
-const mapStateToProps= (state) => ({
-        isAuth: state.auth.isAuth
+const mapStateToProps = (state) => ({
+    isAuth: state.auth.isAuth
 })
 
 export default connect(mapStateToProps, {login})(Login);
