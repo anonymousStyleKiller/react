@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
+    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="79 - stopSubmit (redux-form)">
+      <change afterPath="$PROJECT_DIR$/src/redux/appReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MyStore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -94,15 +97,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Work\react-way-of-samurai\src\components\common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Work\react-way-of-samurai\src\components\Header" />
       <recent name="E:\Work\react-way-of-samurai\src\redux" />
+      <recent name="E:\Work\react-way-of-samurai\src\components\Header" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Profile" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Users" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Dialogs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\react-way-of-samurai\src\components\common" />
     </key>
   </component>
   <component name="RunManager">
@@ -253,14 +256,8 @@
       <workItem from="1587146507112" duration="7074000" />
       <workItem from="1587201773403" duration="6794000" />
       <workItem from="1587232576994" duration="3616000" />
-      <workItem from="1587296367156" duration="2139000" />
-    </task>
-    <task id="LOCAL-00003" summary="lesson 18">
-      <created>1583084902957</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583084902957</updated>
+      <workItem from="1587296367156" duration="7630000" />
+      <workItem from="1587374408307" duration="2240000" />
     </task>
     <task id="LOCAL-00004" summary="lesson 18">
       <created>1583084988846</created>
@@ -598,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587210399682</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="79 - stopSubmit (redux-form)">
+      <created>1587304617836</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1587304617838</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +622,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="52 - Side Effect" />
     <MESSAGE value="53 - Class component" />
     <MESSAGE value="54 - Life" />
     <MESSAGE value="55 - pagination" />
@@ -643,7 +646,8 @@
     <MESSAGE value="76 - React JS - redux-form" />
     <MESSAGE value="77 - React JS - redux-form field validation" />
     <MESSAGE value="78 - React JS - login и logout api" />
-    <option name="LAST_COMMIT_MESSAGE" value="78 - React JS - login и logout api" />
+    <MESSAGE value="79 - stopSubmit (redux-form)" />
+    <option name="LAST_COMMIT_MESSAGE" value="79 - stopSubmit (redux-form)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="97" key="#Inspections" timestamp="1586372291256">
@@ -700,11 +704,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
-    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587210396653">
+    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587376330861">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="346" y="201" key="CommitChangelistDialog2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080869635" />
-    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587210396653" />
+    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587376330861" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912685148" />
     <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554410124" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1583765961570">
@@ -744,13 +748,17 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="644" y="387" key="UiDebugger/0.0.1680.1010@0.0.1680.1010" timestamp="1586371745529" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587210401376">
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587304677653">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="300" y="189" key="Vcs.Push.Dialog.v2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080874189" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587210401376" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587304677653" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912705082" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
+    <state x="422" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587305553857">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="422" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1587305553857" />
     <state x="609" y="407" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586415795186">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -776,17 +784,21 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="675" y="339" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1680.1010@0.0.1680.1010" timestamp="1585085624515" />
-    <state x="396" y="230" key="run.anything.popup" timestamp="1587069613864">
+    <state x="394" y="164" width="875" height="663" key="recent.locations.popup" timestamp="1587305423513">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="396" y="230" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587069613864" />
+    <state x="394" y="164" width="875" height="663" key="recent.locations.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587305423513" />
+    <state x="396" y="230" key="run.anything.popup" timestamp="1587309486731">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="396" y="230" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587309486731" />
     <state x="443" y="239" key="run.anything.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585906512424" />
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587302954055">
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587376335399">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="388" y="15" width="841" height="1035" key="search.everywhere.popup/0.0.1618.1050@0.0.1618.1050" timestamp="1586078499971" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587302954055" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587376335399" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585909764848" />
     <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
   </component>
