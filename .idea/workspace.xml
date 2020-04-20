@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="79 - stopSubmit (redux-form)">
-      <change afterPath="$PROJECT_DIR$/src/redux/appReducer.js" afterDir="false" />
+    <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/usersSelectors.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/usersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,14 +254,7 @@
       <workItem from="1587201773403" duration="6794000" />
       <workItem from="1587232576994" duration="3616000" />
       <workItem from="1587296367156" duration="7630000" />
-      <workItem from="1587374408307" duration="2240000" />
-    </task>
-    <task id="LOCAL-00004" summary="lesson 18">
-      <created>1583084988846</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1583084988846</updated>
+      <workItem from="1587374408307" duration="6669000" />
     </task>
     <task id="LOCAL-00005" summary="lesson 19">
       <created>1583092641789</created>
@@ -602,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587304617838</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="80 - инициализация приложения">
+      <created>1587376674835</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1587376674837</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +619,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="53 - Class component" />
     <MESSAGE value="54 - Life" />
     <MESSAGE value="55 - pagination" />
     <MESSAGE value="56 - pre and cont components" />
@@ -647,7 +643,8 @@
     <MESSAGE value="77 - React JS - redux-form field validation" />
     <MESSAGE value="78 - React JS - login и logout api" />
     <MESSAGE value="79 - stopSubmit (redux-form)" />
-    <option name="LAST_COMMIT_MESSAGE" value="79 - stopSubmit (redux-form)" />
+    <MESSAGE value="80 - инициализация приложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="80 - инициализация приложения" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="97" key="#Inspections" timestamp="1586372291256">
@@ -704,11 +701,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
-    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587376330861">
+    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587376672316">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="346" y="201" key="CommitChangelistDialog2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080869635" />
-    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587376330861" />
+    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587376672316" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912685148" />
     <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554410124" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1583765961570">
@@ -748,11 +745,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="644" y="387" key="UiDebugger/0.0.1680.1010@0.0.1680.1010" timestamp="1586371745529" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587304677653">
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587379156734">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="300" y="189" key="Vcs.Push.Dialog.v2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080874189" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587304677653" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587379156734" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912705082" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
     <state x="422" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587305553857">
@@ -794,11 +791,11 @@
     <state x="396" y="230" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587309486731" />
     <state x="443" y="239" key="run.anything.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585906512424" />
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587376335399">
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587379196071">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="388" y="15" width="841" height="1035" key="search.everywhere.popup/0.0.1618.1050@0.0.1618.1050" timestamp="1586078499971" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587376335399" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587379196071" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585909764848" />
     <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
   </component>

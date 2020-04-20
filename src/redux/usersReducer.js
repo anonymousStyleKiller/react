@@ -74,16 +74,16 @@ export const setUsers = (users) => ({type: USERS, users});
 export const setCurrentPage = (currentPage) => ({type: SET_CURRENT_PAGE, currentPage});
 export const setTotalUsersCount = (totalUsersCount) => ({type: TOTAL_USER_COUNT, totalUsersCount});
 export const toggleIsFetching = (isFetching) => ({type: TOGGLE_IS_FETCHING, isFetching});
-export const toggleFollowingProgress = (followingInProgress, userId) => ({
-    type: TOGGLE_FOLLOWING_IN_PROGRESS,
+export const toggleFollowingProgress = (followingInProgress, userId) => ({type: TOGGLE_FOLLOWING_IN_PROGRESS,
     followingInProgress,
     userId
 });
 
-export const getUsers = (currentPage, pageSize) => {
+export const getRequestUsers = (page, pageSize) => {
     return (dispatch) => {
         dispatch(toggleIsFetching(true));
-        apiMe.getUsers(currentPage, pageSize).then(data => {
+        dispatch(setCurrentPage(page));
+        apiMe.getUsers(page, pageSize).then(data => {
             dispatch(toggleIsFetching(false));
             dispatch(setUsers(data.items));
             dispatch(setTotalUsersCount(data.totalCount));
