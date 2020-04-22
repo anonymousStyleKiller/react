@@ -27,28 +27,6 @@ const Navbar = () => {
                          alt="usersImg"/>
                 </NavLink>
             </div>
-            <div className={css.item}>
-                <NavLink to="/news" activeClassName={css.activeLink}>
-                    <img className={css.navBarImg} title="News"
-                         src="https://img.icons8.com/nolan/64/news.png" alt="newsImg"/>
-                </NavLink>
-
-            </div>
-            <div className={css.item}>
-                <NavLink to="/music" activeClassName={css.activeLink}>
-                    <img className={css.navBarImg} title="Music"
-                         src="https://img.icons8.com/nolan/64/music.png"
-                         alt="musicImg"/>
-                </NavLink>
-            </div>
-            <div className={css.item}>
-                <NavLink to="/settings" activeClassName={css.activeLink}>
-                    <img className={css.navBarImg} title="Setting"
-                        src="https://img.icons8.com/nolan/64/settings--v1.png"
-                         alt="settingsImg"
-                    />
-                </NavLink>
-            </div>
         </nav>
     )
 };

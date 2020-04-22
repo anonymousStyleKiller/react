@@ -2,12 +2,13 @@ import React from 'react';
 import css from './Header.module.css';
 import {NavLink} from "react-router-dom";
 import {HeaderLogin} from "./HeaderLogin";
+import img from "../../assets/images/cropped-cropped-rosnf-web-1.jpg"
 
 
 const Header = (props) => {
     return <header className={css.header}>
         <img
-            src='https://wallpapershome.ru/images/wallpapers/kartinki-pro-lyubov-3840x2160-kartinki-pro-lyubov-21486.jpg'
+            src={img}
             alt=""/>
         <div className={css.headerText}>
             <div className={css.headerTitle}>Your Friend</div>

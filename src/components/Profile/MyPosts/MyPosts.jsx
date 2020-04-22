@@ -6,7 +6,7 @@ import {maxLengthCreator, required} from "../../../utils/validators/validators";
 import {Textarea} from "../../common/FormsControls/FormsControls";
 
 
-const  maxLength = maxLengthCreator(10);
+const maxLength = maxLengthCreator(50);
 
 let AddNewMessageBody = (props) => {
     return (
@@ -15,16 +15,17 @@ let AddNewMessageBody = (props) => {
                 <Field name="newPostText"
                        validate={[required, maxLength]}
                        component={Textarea}
-                       placeholder={"Post message"}/>
+                       placeholder={"What is new in you?"}/>
             </div>
-            <div>
-                <button  className={css.postButton}>Add post</button>
+            <div className={css.postButtonOut}>
+                <div></div>
+                <button className={css.postButton}>Add post</button>
             </div>
         </form>
     );
 }
 
- AddNewMessageBody = reduxForm({
+AddNewMessageBody = reduxForm({
     form: 'ProfileAddNewPostForm'
 })(AddNewMessageBody);
 
@@ -39,10 +40,15 @@ const MyPosts = (props) => {
 
     return (
         <div className={css.postsBlock}>
-            <h3> My posts </h3>
-            <AddNewMessageBody onSubmit={onAddPost}/>
-            <div className={css.posts}>
-                {postsItem}
+            <div className={css.myPost}>
+                <h3 className={css.myPostTitle}> My posts </h3>
+                <div className={css.posts}>
+                    {postsItem}
+                </div>
+            </div>
+            <div className={css.addPost}>
+                <h3 className={css.myPostTitle}> Add new post </h3>
+                <AddNewMessageBody onSubmit={onAddPost}/>
             </div>
         </div>
     )

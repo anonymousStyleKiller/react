@@ -29,12 +29,7 @@ export const apiMe = {
                 return response.data;
             })
         )
-    },
-    profile(userId) {
-        console.warn("Absolute method. Please profileAPI object");
-        return (profileAPI.profile(userId));
-    },
-
+    }
 };
 
 export const profileAPI = {

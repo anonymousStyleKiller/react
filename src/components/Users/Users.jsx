@@ -15,12 +15,16 @@ let Users = (props) => {
                 {
                     pages.map(pageNumber => {
                         return <span className={props.page === pageNumber && css.selectedPage}
-                                     onClick={() => {props.onPageChanged(pageNumber)}}>{pageNumber}</span>
+                                     onClick={() => {
+                                         props.onPageChanged(pageNumber)
+                                     }}>{pageNumber}</span>
                     })
                 }
             </div>
-            {props.users.map(u => <div key={u.id}>
-                     <span>
+            {props.users.map(u =>
+                <div className={css.users}  key={u.id}>
+                    <div className={css.usersProfile}>
+                     <span >
                              <div>
                                  <NavLink to={'/profile/' + u.id}>
                                       <img className={css.usersPhoto}
@@ -28,14 +32,18 @@ let Users = (props) => {
                                            alt=""/>
                                  </NavLink>
                              </div>
-                             <div>
+                             <div className={css.follow}>
                                  {u.followed ? <button disabled={props.followingInProgress.some(id => id === u.id)}
-                                                       onClick={() => {props.unFollow(u.id);}}>UnFollow</button>
-                                            : <button disabled={props.followingInProgress.some(id => id === u.id)}
-                                                       onClick={() => {props.follow(u.id);}}>Follow</button>}
+                                                       onClick={() => {
+                                                           props.unFollow(u.id);
+                                                       }}>UnFollow</button>
+                                     : <button disabled={props.followingInProgress.some(id => id === u.id)}
+                                               onClick={() => {
+                                                   props.follow(u.id);
+                                               }}>Follow</button>}
                              </div>
                      </span>
-                    <span>
+                        <span>
                                 <span>
                                      <div>{u.name}</div>
                                      <div>{u.status}</div>
@@ -45,6 +53,7 @@ let Users = (props) => {
                                      <div>{"u.location.city"}</div>
                                 </span>
                     </span>
+                    </div>
                 </div>
             )}
         </div>

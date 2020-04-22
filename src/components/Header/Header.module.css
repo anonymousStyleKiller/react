@@ -1,12 +1,12 @@
 .header {
     width: 100%;
     height: 70px;
-    background-color: #3f4257;
+    background: #1D1B26;
     display: flex;
 }
 
 .header img {
-    width: 70px;
+    width: 100px;
     height: 100%;
 }
 
@@ -23,6 +23,7 @@
 }
 .headerTitle{
     color: white;
+    font-size: 30px;
 }
 
 .loginBlock{
@@ -36,9 +37,14 @@
 }
 
 .headerLogin{
-    display:block;
+    display: block;
     text-align: center;
     opacity: 0.5;
+}
+
+.headerLogin div{
+    margin-bottom: 5px;
+    margin-right: 20px;
 }
 
 .login{

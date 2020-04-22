@@ -12,19 +12,16 @@ const ProfileInfo = (props) => {
             <div>
                 <div className={css.descriptionBlock}>
                     <div className={css.profileInfo}>
-                        <div className={css.contacts}>
-                            <ul>
-                                <li>{props.profile.contacts.facebook}</li>
-                                <li>{props.profile.contacts.twitter}</li>
-                                <li>{props.profile.contacts.instagram}</li>
-                            </ul>
-                        </div>
-                        <div>
+                        <div className={css.profileInfo}>
                             <img className={css.photoProf} src={props.profile.photos.large} alt=""/>
-                            <div className={css.fullName}>
-                                {props.profile.fullName}
+                            <div className={css.name}>
+                                <div className={css.fullName}>
+                                    @{props.profile.fullName}
+                                </div>
+                                <div className={css.status}>
+                                    <ProfileStatus updateStatus={props.updateStatus} status={props.status}/>
+                                </div>
                             </div>
-                            <ProfileStatus updateStatus={props.updateStatus} status={props.status}/>
                         </div>
                     </div>
                 </div>

@@ -5,31 +5,38 @@ import {required} from "../../utils/validators/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/authReducer";
 import {Redirect} from "react-router-dom";
-import style from  '../common/FormsControls/FormsControls.module.css'
+import style from '../common/FormsControls/FormsControls.module.css'
+import css from './Login.module.css'
 
 const LoginForm = (props) => {
     return (
-        <form onSubmit={props.handleSubmit}>
-            <div>
-                <Field validate={[required]} placeholder={"Email"} component={Input} name={"email"}/>
-            </div>
-            <div>
-                <Field validate={[required]} placeholder={"Password"} component={Input} name={"password"}
-                       type="password"
-                />
-            </div>
-            <div>
-                <Field validate={[required]} component={Input} name={"checkbox"} type={"checkbox"}/>
-            </div>
+        <div className={css.loginForm}>
+            <div className={css.loginFormInner}>
+                <form onSubmit={props.handleSubmit}>
+                    <h1 className={css.titleForm}>Register </h1>
+                    <div>
+                        <Field validate={[required]}  placeholder={"Your Email"} component={Input}
+                               name={"email"}/>
+                    </div>
+                    <div>
+                        <Field validate={[required]}  placeholder={"Your Password"}
+                               component={Input} name={"password"}
+                               type="password"/>
+                    </div>
 
-            {props.error &&<div className={style.loginError}>
-                {props.error}
-            </div>}
+                        <p className={css.loginCheckboxText}>  I accept the Terms and Conditions of the website</p>
+                        <Field className={css.loginCheckbox} validate={[required]} component={Input} name={"checkbox"} type={"checkbox"}/>
 
-            <div>
-                <button>Login</button>
+                    {props.error && <div className={style.loginError}>
+                        {props.error}
+                    </div>}
+
+                    <div>
+                        <button className={css.loginBtn}>Login</button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     )
 }
 
@@ -48,10 +55,7 @@ const Login = (props) => {
         return <Redirect to={"/profile"}/>
     }
     return (
-        <div>
-            <h1>Login</h1>
-            <LoginReduxFrom onSubmit={onSubmit}/>
-        </div>
+        <LoginReduxFrom onSubmit={onSubmit}/>
     )
 }
 

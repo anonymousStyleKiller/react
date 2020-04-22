@@ -11,24 +11,26 @@ const Dialogs = (props) => {
     let dialogsElement = state.dialogs
         .map((dialog) => <DialogItem name={dialog.name} key={dialog.id} id={dialog.id}/>);
     let messageElement = state.message
-        .map((message) => <Message message={message.message} key={message.id} id={message.id}/>);
-
-
-     let newMessageBody = state.newMessageBody;
+        .map((messages) => <Message message={messages.message} key={messages.id} id={messages.id}/>);
 
     let AddNewMessage = (values) =>{
         props.sendMessage(values.newMessageBody);
     }
 
     return (
-        <div className={css.dialogs}>
-            <div className={css.dialogItem}>
-                {dialogsElement}
-            </div>
+        <div className={css.dialogsPage}>
+            <div className={css.dialogs}>
+                <div className={css.dialogItem}>
+                    {dialogsElement}
 
-            <div className={css.message}>
-                <div>{messageElement}</div>
-                <AddMessageForm onSubmit={AddNewMessage}/>
+                    <div className={css.formDialogs}>
+                        <AddMessageForm onSubmit={AddNewMessage}/>
+                    </div>
+                </div>
+
+                <div className={css.message}>
+                    <div className={css.messageInner}>{messageElement}</div>
+                </div>
             </div>
         </div>
     );

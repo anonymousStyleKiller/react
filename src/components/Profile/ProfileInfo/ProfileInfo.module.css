@@ -4,6 +4,15 @@
 
 .profileInfo{
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    height: 400px;
+}
+
+.profileInfo img{
+    width: 40%;
+    height: 400px;
 }
 .contacts{
     margin-right: 20px;
@@ -28,5 +37,18 @@
 .meStatus{
     opacity: 0.5;
     font-style: italic;
+}
+
+.fullName{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.status{
+    font-size: 18px;
+}
+
+.name{
+    margin-left: 50px;
 }
 

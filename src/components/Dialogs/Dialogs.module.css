@@ -1,6 +1,10 @@
+.dialogsPage{
+    margin-left: 50px;
+}
 .dialogs {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
+    display: flex;
+    margin: 40px 0;
+    font-size: 24px;
 }
 
 .dialog {
@@ -8,20 +12,65 @@
     color: white;
 }
 
+.dialogItem a{
+    color: white;
+    padding: 10px;
+}
+
 .dialogItem .active{
-    color: gold;
+    text-decoration: none;
 }
 
 .message {
     padding: 10px;
 }
-
-.messages .message{
-    color: white;
+.messageInner{
+    margin-left: 10px;
 }
 
-button{
+.dialogsBtn{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fe6637;
+    transition: .2s ease-in-out;
     width: 100px;
     height: 50px;
-    text-align: center;
+    cursor: pointer;
 }
+
+.dialogsBtn:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+}
+.dialogsBtn:hover {
+    background: #fe6637;
+    color: #fff;
+}
+.dialogsBtn:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+}
+.formDialogs{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.formDialogs textarea{
+    width: 200px;
+    height: 50px;
+}
+

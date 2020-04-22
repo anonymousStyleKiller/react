@@ -1,16 +1,28 @@
 .postsBlock {
-    padding: 10px;
+    width: 80%;
+    display: flex;
+    margin: 50px auto 0;
+    justify-content: space-between;
+}
+
+.myPostTitle{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.addPost textarea{
+    width: 300px;
+    height: 50px;
+    margin: 20px 0;
 }
 
 .posts {
-    margin-top: 10px;
-}
-
-.postTextarea {
-
+    margin: 10px auto;
 }
 
 .postButton {
+    float: right;
     position: relative;
     color: white;
     font-weight: bold;
@@ -25,7 +37,14 @@
     background-size: 200% 100%, auto;
     background-position: 200% 0, 0 0;
     box-shadow: rgba(0, 0, 0, .3) 0 2px 5px;
-    width: 200px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.postButtonOut{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
 }
 
 .postButton:hover {

@@ -1,7 +1,11 @@
 .nav {
     background-color: white;
     padding: 10px;
-    width: 50px;
+    text-align: center;
+}
+.item{
+    width: 80px;
+    margin-bottom: 20px;
 }
 .item img.navBarImg{
     width: 40px;

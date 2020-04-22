@@ -5,8 +5,8 @@ const SET_STATUS = 'SET_STATUS';
 
 let initialState = {
     postsData: [
-        {id: 1, message: "Hello",  likesCount: Math.floor(Math.random()*10)+1},
-        {id: 2, message: "message 2", likesCount: Math.floor(Math.random()*10)+1}
+        {id: 1, message: "Post 1",  likesCount: Math.floor(Math.random()*10)+1},
+        {id: 2, message: "Post 2", likesCount: Math.floor(Math.random()*10)+1}
     ],
     profile: null,
     status: ""

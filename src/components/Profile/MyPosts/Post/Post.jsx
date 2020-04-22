@@ -1,16 +1,21 @@
 import React from 'react';
-import s from './Post.module.css';
+import css from './Post.module.css';
+import ava from '../../../../assets/images/icons8-old-man-64.png';
 
 const Post = (props) => {
 
     return (
-        <div className={s.item}>
-            <img src='https://movies4maniacs.liberty.me/wp-content/uploads/sites/1218/2015/09/avatarsucks.jpg'/>
-            {props.message}
-            <br/>
+        <div className={css.item}>
+
+            <img src={ava}/>
             <div>
-            {props.likesCount}
-                <span> like</span>
+                <div className={css.message}>
+                    {props.message}
+                </div>
+                <div className={css.likesCount}>
+                    {props.likesCount}
+                    <span> 	&#9829;</span>
+                </div>
             </div>
         </div>
 

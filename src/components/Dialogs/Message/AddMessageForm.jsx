@@ -2,6 +2,7 @@ import {Field, reduxForm} from "redux-form";
 import React from "react";
 import {Textarea} from "../../common/FormsControls/FormsControls";
 import {maxLengthCreator, required} from "../../../utils/validators/validators";
+import css from "../Dialogs.module.css";
 
 
 const maxLength50 = maxLengthCreator(50);
@@ -14,7 +15,7 @@ let AddMessageForm = (props) => {
                        validate={[required, maxLength50]}/>
             </div>
             <div>
-                <button>Send</button>
+                <button className={css.dialogsBtn}>Send</button>
             </div>
         </form>
     )
