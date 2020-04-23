@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogsItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialog/DialogsItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/AddMessageForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/AddMessageForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Music/Music.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/News/News.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Settings/Settings.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/usersReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/usersSelectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/usersSelectors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,23 +85,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.24390244" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\react-way-of-samurai\src\components\common" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\diploma-of-react\src\components\Profile\ProfileInfo" />
       <recent name="E:\Work\react-way-of-samurai\src\redux" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Header" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Profile" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Users" />
-      <recent name="E:\Work\react-way-of-samurai\src\components\Dialogs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Work\react-way-of-samurai\src\components\common" />
     </key>
   </component>
   <component name="RunManager">
@@ -292,14 +259,10 @@
       <workItem from="1587533418576" duration="4223000" />
       <workItem from="1587541827425" duration="775000" />
       <workItem from="1587543539748" duration="1193000" />
-      <workItem from="1587545006817" duration="1523000" />
-    </task>
-    <task id="LOCAL-00006" summary="lesson 20">
-      <created>1583151281889</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1583151281889</updated>
+      <workItem from="1587545006817" duration="2271000" />
+      <workItem from="1587575863075" duration="37000" />
+      <workItem from="1587575925821" duration="1244000" />
+      <workItem from="1587641854295" duration="4510000" />
     </task>
     <task id="LOCAL-00007" summary="lesson 21 Верстаем страницу Диалогов">
       <created>1583156839357</created>
@@ -637,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587381190043</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="83 - подключаем reselect">
+      <created>1587547265276</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1587547265277</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -657,7 +627,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="55 - pagination" />
     <MESSAGE value="56 - pre and cont components" />
     <MESSAGE value="56 - isFetching" />
     <MESSAGE value="60 - React JS - withRouter, props.match.params" />
@@ -682,7 +651,8 @@
     <MESSAGE value="79 - stopSubmit (redux-form)" />
     <MESSAGE value="80 - инициализация приложения" />
     <MESSAGE value="81 - селекторы" />
-    <option name="LAST_COMMIT_MESSAGE" value="81 - селекторы" />
+    <MESSAGE value="83 - подключаем reselect" />
+    <option name="LAST_COMMIT_MESSAGE" value="83 - подключаем reselect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="97" key="#Inspections" timestamp="1586372291256">
@@ -739,11 +709,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
-    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587381188848">
+    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587547261859">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="346" y="201" key="CommitChangelistDialog2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080869635" />
-    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587381188848" />
+    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587547261859" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912685148" />
     <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554410124" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1583765961570">
@@ -765,10 +735,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="643" y="46" key="RollbackChangesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584298173943" />
-    <state x="73" y="27" width="1477" height="983" key="SettingsEditor" timestamp="1586790944315">
+    <state x="72" y="0" width="1477" height="983" key="SettingsEditor" timestamp="1587648439249">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="73" y="27" width="1477" height="983" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1586790944315" />
+    <state x="72" y="0" width="1477" height="983" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1587648439249" />
     <state x="235" y="151" key="SettingsEditor/62.0.1618.1050@62.0.1618.1050" timestamp="1583081088421" />
     <state x="203" y="0" width="1477" height="1050" key="SettingsEditor/65.0.1615.1050@65.0.1615.1050" timestamp="1584525744837" />
     <state width="297" height="242" key="ShowFilterAction_Filter_Popup" timestamp="1586342214636">
@@ -783,11 +753,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="644" y="387" key="UiDebugger/0.0.1680.1010@0.0.1680.1010" timestamp="1586371745529" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587381191485">
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587547270921">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="300" y="189" key="Vcs.Push.Dialog.v2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080874189" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587381191485" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587547270921" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912705082" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
     <state x="422" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587305553857">
@@ -829,11 +799,11 @@
     <state x="396" y="230" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587309486731" />
     <state x="443" y="239" key="run.anything.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585906512424" />
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587543858558">
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587644671078">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="388" y="15" width="841" height="1035" key="search.everywhere.popup/0.0.1618.1050@0.0.1618.1050" timestamp="1586078499971" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587543858558" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587644671078" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585909764848" />
     <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
   </component>
