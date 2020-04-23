@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/usersSelectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/usersSelectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,14 +260,7 @@
       <workItem from="1587545006817" duration="2271000" />
       <workItem from="1587575863075" duration="37000" />
       <workItem from="1587575925821" duration="1244000" />
-      <workItem from="1587641854295" duration="4510000" />
-    </task>
-    <task id="LOCAL-00007" summary="lesson 21 Верстаем страницу Диалогов">
-      <created>1583156839357</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1583156839357</updated>
+      <workItem from="1587641854295" duration="5823000" />
     </task>
     <task id="LOCAL-00008" summary="lesson 22 Route exact">
       <created>1583165672372</created>
@@ -607,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587547265277</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="84 - hook">
+      <created>1587649161943</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1587649161945</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +625,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="56 - pre and cont components" />
     <MESSAGE value="56 - isFetching" />
     <MESSAGE value="60 - React JS - withRouter, props.match.params" />
     <MESSAGE value="61 - React JS - cookie, login в теории, auth/me" />
@@ -652,7 +649,8 @@
     <MESSAGE value="80 - инициализация приложения" />
     <MESSAGE value="81 - селекторы" />
     <MESSAGE value="83 - подключаем reselect" />
-    <option name="LAST_COMMIT_MESSAGE" value="83 - подключаем reselect" />
+    <MESSAGE value="84 - hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="84 - hook" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="97" key="#Inspections" timestamp="1586372291256">
@@ -709,11 +707,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
-    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587547261859">
+    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587649160093">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="346" y="201" key="CommitChangelistDialog2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080869635" />
-    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587547261859" />
+    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587649160093" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912685148" />
     <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554410124" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1583765961570">
@@ -753,11 +751,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="644" y="387" key="UiDebugger/0.0.1680.1010@0.0.1680.1010" timestamp="1586371745529" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587547270921">
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587649450207">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="300" y="189" key="Vcs.Push.Dialog.v2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080874189" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587547270921" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587649450207" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912705082" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
     <state x="422" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587305553857">
