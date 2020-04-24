@@ -29,7 +29,8 @@ AddNewMessageBody = reduxForm({
     form: 'ProfileAddNewPostForm'
 })(AddNewMessageBody);
 
-const MyPosts = (props) => {
+const MyPosts = React.memo(props => {
+    console.log('Render');
     let postsItem = props.posts.map((post) => <Post key={post.id} message={post.message}
                                                     likesCount={post.likesCount}/>);
 
@@ -52,7 +53,7 @@ const MyPosts = (props) => {
             </div>
         </div>
     )
-};
+});
 
 
 export default MyPosts;

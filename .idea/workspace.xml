@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +264,10 @@
       <workItem from="1587545006817" duration="2271000" />
       <workItem from="1587575863075" duration="37000" />
       <workItem from="1587575925821" duration="1244000" />
-      <workItem from="1587641854295" duration="5823000" />
-    </task>
-    <task id="LOCAL-00008" summary="lesson 22 Route exact">
-      <created>1583165672372</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1583165672372</updated>
+      <workItem from="1587641854295" duration="7496000" />
+      <workItem from="1587711798430" duration="2765000" />
+      <workItem from="1587742204064" duration="976000" />
+      <workItem from="1587743732285" duration="2580000" />
     </task>
     <task id="LOCAL-00009" summary="lesson 23 props для Диалогов">
       <created>1583177003447</created>
@@ -605,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587649161945</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="85 - useEffect">
+      <created>1587650966193</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1587650966193</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +632,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="56 - isFetching" />
     <MESSAGE value="60 - React JS - withRouter, props.match.params" />
     <MESSAGE value="61 - React JS - cookie, login в теории, auth/me" />
     <MESSAGE value="62 - follow-unfollow api" />
@@ -650,7 +656,8 @@
     <MESSAGE value="81 - селекторы" />
     <MESSAGE value="83 - подключаем reselect" />
     <MESSAGE value="84 - hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="84 - hook" />
+    <MESSAGE value="85 - useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="85 - useEffect" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="97" key="#Inspections" timestamp="1586372291256">
@@ -684,11 +691,11 @@
       <screen x="62" y="0" width="1618" height="1050" />
     </state>
     <state x="802" y="294" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/62.0.1618.1050@62.0.1618.1050" timestamp="1583051753618" />
-    <state x="488" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586076335428">
-      <screen x="0" y="0" width="1618" height="1050" />
+    <state x="507" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587651182021">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="488" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1618.1050@0.0.1618.1050" timestamp="1586076335428" />
-    <state x="507" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1584654159822" />
+    <state x="507" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587651182021" />
     <state x="509" y="142" key="#start" timestamp="1585115945693">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -707,11 +714,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
-    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587649160093">
+    <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587650964842">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="346" y="201" key="CommitChangelistDialog2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080869635" />
-    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587649160093" />
+    <state x="353" y="145" key="CommitChangelistDialog2/0.0.1680.1010@0.0.1680.1010" timestamp="1587650964842" />
     <state x="415" y="0" width="911" height="770" key="CommitChangelistDialog2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912685148" />
     <state x="417" y="0" key="CommitChangelistDialog2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554410124" />
     <state x="92" y="92" width="1496" height="826" key="DiffContextDialog" timestamp="1583765961570">
@@ -751,11 +758,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="644" y="387" key="UiDebugger/0.0.1680.1010@0.0.1680.1010" timestamp="1586371745529" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587649450207">
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2" timestamp="1587650969198">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="300" y="189" key="Vcs.Push.Dialog.v2/0.0.1618.1050@0.0.1618.1050" timestamp="1586080874189" />
-    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587649450207" />
+    <state x="312" y="182" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1587650969198" />
     <state x="363" y="189" key="Vcs.Push.Dialog.v2/62.0.1618.1050@62.0.1618.1050" timestamp="1585912705082" />
     <state x="365" y="189" key="Vcs.Push.Dialog.v2/65.0.1615.1050@65.0.1615.1050" timestamp="1584554415244" />
     <state x="422" y="30" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587305553857">
@@ -797,11 +804,11 @@
     <state x="396" y="230" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587309486731" />
     <state x="443" y="239" key="run.anything.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585906512424" />
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587644671078">
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587746262737">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="388" y="15" width="841" height="1035" key="search.everywhere.popup/0.0.1618.1050@0.0.1618.1050" timestamp="1586078499971" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587644671078" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587746262737" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585909764848" />
     <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
   </component>
