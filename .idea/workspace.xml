@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d66d1af-401d-4d73-9262-e54d39c9b22e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/profileReducer.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +82,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -95,18 +94,57 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Work\react-way-of-samurai\src\components\common" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\diploma-of-react\src\redux" />
       <recent name="E:\Work\diploma-of-react\src\components\Profile\ProfileInfo" />
       <recent name="E:\Work\react-way-of-samurai\src\redux" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Header" />
       <recent name="E:\Work\react-way-of-samurai\src\components\Profile" />
-      <recent name="E:\Work\react-way-of-samurai\src\components\Users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\react-way-of-samurai\src\components\common" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.after deleting length of  messages should be decrement">
+    <configuration name="after deleting length of  messages should be decrement" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/profileReducer.test.js" />
+      <test-names>
+        <test-name value="after deleting length of  messages should be decrement" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="new post should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/redux/profileReducer.test.js" />
+      <test-names>
+        <test-name value="new post should be added" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="renders without crashing" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" activateToolWindowBeforeRun="false">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -122,6 +160,24 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.after deleting length of  messages should be decrement" />
+        <item itemvalue="Jest.new post should be added" />
+        <item itemvalue="Jest.renders without crashing" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_MODE" value="false" />
@@ -268,6 +324,8 @@
       <workItem from="1587711798430" duration="2765000" />
       <workItem from="1587742204064" duration="976000" />
       <workItem from="1587743732285" duration="2580000" />
+      <workItem from="1587802399210" duration="1270000" />
+      <workItem from="1587807952480" duration="5917000" />
     </task>
     <task id="LOCAL-00009" summary="lesson 23 props для Диалогов">
       <created>1583177003447</created>
@@ -682,6 +740,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="294" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1585115972311" />
+    <state x="92" y="92" width="1496" height="826" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587817460831">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1587817460831" />
     <state x="613" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584348058357">
       <screen x="65" y="0" width="1615" height="1050" />
     </state>
@@ -714,6 +776,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="521" y="128" key="#start_(3)/0.0.1680.1010@0.0.1680.1010" timestamp="1583758812100" />
+    <state x="518" y="153" key="#test" timestamp="1587811466315">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="518" y="153" key="#test/0.0.1680.1010@0.0.1680.1010" timestamp="1587811466315" />
     <state x="353" y="145" width="911" height="770" key="CommitChangelistDialog2" timestamp="1587650964842">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -736,6 +802,70 @@
     <state x="560" y="215" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1587543502714" />
     <state x="601" y="224" key="FileChooserDialogImpl/62.0.1618.1050@62.0.1618.1050" timestamp="1585514097916" />
     <state x="603" y="224" key="FileChooserDialogImpl/65.0.1615.1050@65.0.1615.1050" timestamp="1584554441574" />
+    <state width="1629" height="278" key="GridCell.Tab.0.bottom" timestamp="1587817684296">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684296" />
+    <state width="1629" height="278" key="GridCell.Tab.0.center" timestamp="1587817684295">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684295" />
+    <state width="1629" height="278" key="GridCell.Tab.0.left" timestamp="1587817684295">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684295" />
+    <state width="1629" height="278" key="GridCell.Tab.0.right" timestamp="1587817684296">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684296" />
+    <state width="1629" height="278" key="GridCell.Tab.1.bottom" timestamp="1587817695288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587817695288" />
+    <state width="1629" height="278" key="GridCell.Tab.1.center" timestamp="1587817695288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587817695288" />
+    <state width="1629" height="278" key="GridCell.Tab.1.left" timestamp="1587817695287">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587817695287" />
+    <state width="1629" height="278" key="GridCell.Tab.1.right" timestamp="1587817695288">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587817695288" />
+    <state width="1629" height="278" key="GridCell.Tab.2.bottom" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
+    <state width="1629" height="278" key="GridCell.Tab.2.center" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
+    <state width="1629" height="278" key="GridCell.Tab.2.left" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
+    <state width="1629" height="278" key="GridCell.Tab.2.right" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
+    <state width="1629" height="278" key="GridCell.Tab.3.bottom" timestamp="1587817684081">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.3.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684081" />
+    <state width="1629" height="278" key="GridCell.Tab.3.center" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.3.center/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
+    <state width="1629" height="278" key="GridCell.Tab.3.left" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.3.left/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
+    <state width="1629" height="278" key="GridCell.Tab.3.right" timestamp="1587817684080">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1629" height="278" key="GridCell.Tab.3.right/0.0.1680.1010@0.0.1680.1010" timestamp="1587817684080" />
     <state x="643" y="46" key="RollbackChangesDialog" timestamp="1584298173943">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -804,12 +934,24 @@
     <state x="396" y="230" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587309486731" />
     <state x="443" y="239" key="run.anything.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585906512424" />
     <state x="445" y="239" key="run.anything.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1584381076199" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587746262737">
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup" timestamp="1587812075142">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="388" y="15" width="841" height="1035" key="search.everywhere.popup/0.0.1618.1050@0.0.1618.1050" timestamp="1586078499971" />
-    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587746262737" />
+    <state x="403" y="14" width="873" height="995" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1587812075142" />
     <state x="450" y="15" width="840" height="1034" key="search.everywhere.popup/62.0.1618.1050@62.0.1618.1050" timestamp="1585909764848" />
     <state x="452" y="15" width="840" height="1035" key="search.everywhere.popup/65.0.1615.1050@65.0.1615.1050" timestamp="1585212708526" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/redux/profileReducer.test.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
