@@ -1,4 +1,5 @@
 import {profileAPI} from "../api/api";
+
 const addPost = 'ADD-POST';
 const SET_USER_PROFILE = 'SET-USER-PROFILE';
 const SET_STATUS = 'SET_STATUS';
@@ -6,8 +7,8 @@ const DELETE_POST = 'DELETE_POST';
 
 let initialState = {
     postsData: [
-        {id: 1, message: "Post 1",  likesCount: Math.floor(Math.random()*10)+1},
-        {id: 2, message: "Post 2", likesCount: Math.floor(Math.random()*10)+1}
+        {id: 1, message: "Post 1", likesCount: Math.floor(Math.random() * 10) + 1},
+        {id: 2, message: "Post 2", likesCount: Math.floor(Math.random() * 10) + 1}
     ],
     profile: null,
     status: ""
@@ -19,7 +20,7 @@ const profileReducer = (state = initialState, action) => {
             let newPost = {
                 id: 3,
                 message: action.newPostText,
-                likesCount: Math.floor(Math.random()*10)+1
+                likesCount: Math.floor(Math.random() * 10) + 1
             };
             return {
                 ...state,
@@ -41,38 +42,40 @@ const profileReducer = (state = initialState, action) => {
                 ...state,
                 postsData: state.postsData.filter(p =>
                     p.id != action.postId
-                 )
+                )
             };
         default:
             return state;
     }
 };
 
+// Добавляет посты
 export const addPostActionCreator = (newPostText) => ({type: addPost, newPostText});
+// Добавляет профиль
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});
+// Добавляет статус
 export const setStatus = (status) => ({type: SET_STATUS, status});
+// Удаляет пост
 export const deletePost = (postId) => ({type: DELETE_POST, postId});
 
-export const SetUserProfileThunk = (userId) => {
-    return (dispatch) => {
-        profileAPI.profile(userId).then(data => {
-            dispatch(setUserProfile(data));
-        });
+// Отправляет на сервер
+export const SetUserProfileThunk = (userId) => async (dispatch) => {
+    let response = await profileAPI.profile(userId)
+    dispatch(setUserProfile(response.data));
+}
+
+// Получает статус с сервера
+export const getStatus = (userId) => async (dispatch) => {
+    let response = await profileAPI.getStatus(userId)
+    dispatch(setStatus(response.data));
+}
+
+// Обновляет статус на сервере
+export const updateStatus = (status) => async (dispatch) => {
+    let response = await profileAPI.updateStatus(status)
+    if (response.data.resultCode === 0) {
+        dispatch(setStatus(status));
     }
-}
-export const getStatus = (userId) => (dispatch) => {
-    profileAPI.getStatus(userId)
-        .then(data => {
-            dispatch(setStatus(data));
-        });
-}
-export const updateStatus = (status) => (dispatch) => {
-    profileAPI.updateStatus(status)
-        .then(data => {
-            if (data.resultCode === 0) {
-                dispatch(setStatus(status));
-            }
-        });
 }
 
 export default profileReducer;

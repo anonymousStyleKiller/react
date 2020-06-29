@@ -22,9 +22,9 @@ let Users = (props) => {
                 }
             </div>
             {props.users.map(u =>
-                <div className={css.users}  key={u.id}>
+                <div className={css.users} key={u.id}>
                     <div className={css.usersProfile}>
-                     <span >
+                     <span>
                              <div>
                                  <NavLink to={'/profile/' + u.id}>
                                       <img className={css.usersPhoto}
@@ -43,16 +43,10 @@ let Users = (props) => {
                                                }}>Follow</button>}
                              </div>
                      </span>
-                        <span>
                                 <span>
                                      <div>{u.name}</div>
                                      <div>{u.status}</div>
                                 </span>
-                                <span>
-                                     <div>{"u.location.country"}</div>
-                                     <div>{"u.location.city"}</div>
-                                </span>
-                    </span>
                     </div>
                 </div>
             )}

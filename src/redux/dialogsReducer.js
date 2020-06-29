@@ -1,6 +1,5 @@
 const sendMessage = 'send-Message';
 
-
 let initialState = {
     message: [
         {id: "1", message: "Hi"},

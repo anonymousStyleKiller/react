@@ -41,12 +41,12 @@ export const profileAPI = {
         )
     },
     getStatus(userId) {
-        return instance.get(`profile/status/`+ userId).then(response => {
+        return instance.get(`profile/status/` + userId).then(response => {
             return response.data;
         });
     },
     updateStatus(status) {
-        return instance.put('profile/status', {status:status}).then(response => {
+        return instance.put('profile/status', {status: status}).then(response => {
             return response.data;
         });
     }
@@ -54,16 +54,16 @@ export const profileAPI = {
 
 export const authMe = {
     auth() {
-        return instance.get(`auth/me`).then(responce => {
-                return responce.data
-            });
-        },
-    login(email, password, rememberMe){
-        return instance.post(`auth/login`, {email, password, rememberMe}).then(responce => {
-            return responce.data
+        return instance.get(`auth/me`).then(response => {
+            return response;
         });
     },
-    logout(){
+    login(email, password, rememberMe) {
+        return instance.post(`auth/login`, {email, password, rememberMe}).then(response => {
+            return response
+        });
+    },
+    logout() {
         return instance.delete(`auth/login`).then(responce => {
             return responce.data
         });
