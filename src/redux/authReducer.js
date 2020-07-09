@@ -11,7 +11,7 @@ let initialState = {
     isFetching: false
 };
 
-const authReducer = (state = initialState, action) => {
+const authReducer = (state = initialState, action ) => {
     switch (action.type) {
         case SET_USER_DATA:
             return {
